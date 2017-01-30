@@ -1,11 +1,11 @@
-description = 'Groovy and Gradle Examples Project'
-group 'io.pivotal'
-version '1.0.0.BUILD-SNAPSHOT'
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'maven'
+
+description = 'Groovy and Gradle Examples Project'
+group 'io.pivotal'
+version '1.0.0.BUILD-SNAPSHOT'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
